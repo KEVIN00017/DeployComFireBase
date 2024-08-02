@@ -5,13 +5,14 @@
   "homepage": "http://GermaVinsmoke.github.io/bmi-calculator",
   "dependencies": {
     "@types/jest": "24.0.20",
-    "chart.js": "2.9.1",
+    "chart.js": "^2.9.4",
+    "firebase": "^10.12.5",
     "materialize-css": "1.0.0",
     "prop-types": "15.7.2",
     "react": "16.11.0",
     "react-chartjs-2": "2.8.0",
     "react-dom": "16.11.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^5.0.1",
     "uuid": "3.3.3"
   },
   "scripts": {
@@ -49,11 +50,16 @@
   "devDependencies": {
     "codecov.io": "^0.1.6",
     "coveralls": "^3.0.11",
-    "cypress": "^3.8.3",
+    "cypress": "^13.13.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint-plugin-cypress": "^2.10.3",
-    "gh-pages": "^2.2.0",
-    "jest-enzyme": "^7.1.2"
-  }
+    "gh-pages": "^6.1.1",
+    "jest-enzyme": "^4.2.0"
+  },
+  "description": "[![Build Status](https://travis-ci.com/GermaVinsmoke/bmi-calculator.svg?branch=master)](https://travis-ci.com/GermaVinsmoke/bmi-calculator) [![Coverage Status](https://coveralls.io/repos/github/GermaVinsmoke/bmi-calculator/badge.svg?branch=master)](https://coveralls.io/github/GermaVinsmoke/bmi-calculator?branch=master) [![codecov](https://codecov.io/gh/GermaVinsmoke/bmi-calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/GermaVinsmoke/bmi-calculator)",
+  "main": ".prettierrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
