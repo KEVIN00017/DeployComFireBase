@@ -1,5 +1,6 @@
 {
   "hosting": {
+   "site": "reactdeploy-89592-7a74e",
     "public": "build",
     "ignore": [
       "firebase.json",
@@ -9,7 +10,8 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "./index.html"
+        
       }
     ]
   }
